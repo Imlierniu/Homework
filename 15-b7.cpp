@@ -1,4 +1,3 @@
-/* 1752846 边泽轩 车辆工程（汽车） */
 #define _CRT_SECURE_NO_WARNINGS
 
 #include<iostream>
