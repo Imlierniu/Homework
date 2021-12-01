@@ -1,0 +1,2045 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“y_mid_x”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 38,
+                  "endLine": 121,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?filled_triangle@@YAXHHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“y_mid_x”"
+                        }
+                      },
+                      "kinds": [
+                        "声明"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y1”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y2”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y3”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_min&&y_max==y_min”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_min”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_max”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“j<=y_mid”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“j<=y_max”)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“y_mid_x”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "使用情况"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“y_max_x”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 28,
+                  "endLine": 121,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?filled_triangle@@YAXHHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“y_max_x”"
+                        }
+                      },
+                      "kinds": [
+                        "声明"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y1”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y2”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y3”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_min&&y_max==y_min”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_min”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_max”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“j<=y_mid”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“j<=y_max”)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“y_max_x”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "使用情况"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“y_min_x”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 39,
+                  "endLine": 122,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?filled_triangle@@YAXHHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“y_min_x”"
+                        }
+                      },
+                      "kinds": [
+                        "声明"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y1”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y2”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y3”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_min&&y_max==y_min”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_min”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“y_mid==y_max”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“j<=y_mid”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“j<=y_max”)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“y_min_x”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "使用情况"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 581,
+                  "startColumn": 24,
+                  "endLine": 581,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?hdc_rectangle@@YAXHHHHH_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 582,
+                  "startColumn": 24,
+                  "endLine": 582,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?hdc_rectangle@@YAXHHHHH_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 852,
+                  "startColumn": 19,
+                  "endLine": 852,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?hdc_ellipse@@YAXHHHHH_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 852,
+                  "startColumn": 60,
+                  "endLine": 852,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?hdc_ellipse@@YAXHHHHH_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 853,
+                  "startColumn": 19,
+                  "endLine": 853,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?hdc_ellipse@@YAXHHHHH_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+                },
+                "region": {
+                  "startLine": 853,
+                  "startColumn": 72,
+                  "endLine": 853,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?hdc_ellipse@@YAXHHHHH_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0018C1C0 -il C:\\Users\\11256\\AppData\\Local\\Temp\\_CL_e3fc9247ast -typedil -f ..\\common\\cmd_hdc_tools.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\cmd_hdc_tools.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\11256\\source\\repos\\BigHW2\\90-02-b3 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/11256/source/repos/BigHW2/90-02-b3/test_hdc.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9c57d90b9a84ea7ed6e176e28aab874b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/include/cmd_hdc_tools.h"
+          },
+          "hashes": {
+            "md5": "ba6b51329a4a42a44db2f12169d8d2cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/include/cmd_console_tools.h"
+          },
+          "hashes": {
+            "md5": "d3f49588f7ddf95e4e17000fcdfdddbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_student_works.h"
+          },
+          "hashes": {
+            "md5": "43bd7bbe4cd1c6f5779af1e6f8b55715"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/test_draw_peppapig.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "caab915eb6fe30cf2c5f0b83dea2865d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1953977_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "971178f46a0eaa9eef6268b3b6dbe1c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1953977_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "fcd5208812c9680137e9aaa0ae9e07e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952640_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c1f8967cc185d2aaebbf53cb7ccf71c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952640_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ebe59c791420f31ca0befde8c2faf114"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952033_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d80715fcb06427b057c9896f71c42d64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952033_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8357ba746cd3fc545beb5e2020a8a2a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1854082_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "0c156e031193b46d25b18933f3d64a97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1854082_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "1cd9702cc2db1f995dd4b6dfd4724e98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1851746_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f190924814755980237e66f88716495c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1851746_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d88e8083933663ee1e99588f9a870f8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1752846_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a29ef5be90499ad253edf112fd59f439"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/11256/source/repos/BigHW2/common/cmd_hdc_tools.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3786af5e602056e60c33421c326b5cdf"
+          }
+        }
+      ]
+    }
+  ]
+}

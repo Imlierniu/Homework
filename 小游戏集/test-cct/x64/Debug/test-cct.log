@@ -1,0 +1,5 @@
+﻿  cmd_console_tools.cpp
+C:\Users\11256\Desktop\github\沈坚\面向对象\21221-900001-W0401.大作业模板的使用说明及提交要求（适用于本学期所有大作业）\21221-900001-W0401.大作业模板的使用说明及提交要求（适用于本学期所有大作业）\BigHW\common\cmd_console_tools.cpp(230,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  test-cct.cpp
+  正在生成代码...
+  test-cct.vcxproj -> C:\Users\11256\Desktop\github\沈坚\面向对象\21221-900001-W0401.大作业模板的使用说明及提交要求（适用于本学期所有大作业）\21221-900001-W0401.大作业模板的使用说明及提交要求（适用于本学期所有大作业）\BigHW\x64\Debug\test-cct.exe

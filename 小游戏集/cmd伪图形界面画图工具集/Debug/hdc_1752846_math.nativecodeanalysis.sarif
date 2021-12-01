@@ -1,0 +1,193 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0018C1C0 -il C:\\Users\\11256\\AppData\\Local\\Temp\\_CL_a599b454ast -typedil -f hdc_1752846_math.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\hdc_1752846_math.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\11256\\source\\repos\\BigHW2\\90-02-b3 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/11256/source/repos/BigHW2/90-02-b3/test_hdc.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9c57d90b9a84ea7ed6e176e28aab874b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/include/cmd_hdc_tools.h"
+          },
+          "hashes": {
+            "md5": "ba6b51329a4a42a44db2f12169d8d2cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/include/cmd_console_tools.h"
+          },
+          "hashes": {
+            "md5": "d3f49588f7ddf95e4e17000fcdfdddbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_student_works.h"
+          },
+          "hashes": {
+            "md5": "43bd7bbe4cd1c6f5779af1e6f8b55715"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/test_draw_peppapig.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "caab915eb6fe30cf2c5f0b83dea2865d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1953977_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "971178f46a0eaa9eef6268b3b6dbe1c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1953977_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "fcd5208812c9680137e9aaa0ae9e07e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952640_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c1f8967cc185d2aaebbf53cb7ccf71c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952640_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ebe59c791420f31ca0befde8c2faf114"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952033_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d80715fcb06427b057c9896f71c42d64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1952033_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8357ba746cd3fc545beb5e2020a8a2a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1854082_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "0c156e031193b46d25b18933f3d64a97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1854082_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "1cd9702cc2db1f995dd4b6dfd4724e98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1851746_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f190924814755980237e66f88716495c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1851746_cartoon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d88e8083933663ee1e99588f9a870f8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/11256/source/repos/bighw2/90-02-b3/hdc_1752846_math.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a29ef5be90499ad253edf112fd59f439"
+          }
+        }
+      ]
+    }
+  ]
+}
