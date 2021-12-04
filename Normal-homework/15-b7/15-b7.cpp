@@ -1,4 +1,4 @@
-
+/* 1752846 边泽轩 车辆工程（汽车） */
 #define _CRT_SECURE_NO_WARNINGS
 
 #include<iostream>
@@ -186,23 +186,158 @@ void Check(string route,string target_str,string filename)     //
 		if(source_str.length()!=0)
 			break;//找到第一行就可退出了
 	}
-	//cout << source_str << "---";
+	
 	if (!Is_zhushi(source_str)) {
 		cout << "未收到首行信息";
 		return;
 	}
 	source_str = headtail(source_str);
+	//cout << source_str << "---";
 	if (Match(source_str, target_str))
 		cout << "通过" ;
 }
 
-int ReadFile(string courseid, string filename)//逐个打开每个子目录，以及子目录下的文件，判断是否在名单中
+void sort(int *id,int end)
+{
+	int min = 0, imin = 0;
+	for (int i = 0; i < end; i++) {
+		min = id[i];
+		imin = i;
+		for (int j = i + 1; j < end; j++) {
+			if (min > id[j]) {
+				min = id[j];
+				imin = j;
+			}
+		}
+		swap(id[i], id[imin]);
+	}
+}
+
+int ReadFile(string courseid, string filename)//将名单中学号排序，进入对应目录找
+{
+	ifstream infile_courseid, infile_filename;
+	string courseid_filename = "./source/" + courseid + ".dat";
+	string target_s, route;
+	int ID[50] = { 0 };
+	infile_courseid.open(courseid_filename, ios::in);
+	if (!infile_courseid.is_open()) {
+		cout << "无法打开" << courseid_filename << endl;
+		return 0;
+	}
+	int num = 0;
+	while (infile_courseid.peek() != EOF) {
+		getline(infile_courseid, target_s);
+		ID[num++] = atoi(target_s.substr(0, 7).c_str());
+	}
+	infile_courseid.close();
+	sort(ID, num);//对学号排序
+	
+	
+#ifdef linux //Linux下利用dirent结构
+	struct dirent* file_sub;
+	//	DIR* pDir;
+	route = "./source/";//某门课程+学号对于的文件夹名称
+	string route_sub, id, route_find, route_sub_find;//find是在某位添加了通配符的
+	route_find = route;
+	
+	for (int i = 0; i < num; i++) {
+		route_sub = route + courseid + "-" + to_string(ID[i]) + "/";
+		infile_courseid.open(courseid_filename, ios::in|ios::binary);
+		if (!infile_courseid.is_open()) {
+			//cout << "无法打开" << courseid_filename << endl;
+			return 0;
+		}
+		while (infile_courseid.peek() != EOF) {
+			getline(infile_courseid, target_s);
+			target_s = target_s.substr(0, target_s.length() - 1);
+			if (target_s.substr(0, 7) == to_string(ID[i])) {
+				break;
+			}
+		}
+		infile_courseid.close();
+
+		//寻找子目录下文件
+		if (filename == "all")
+			route_sub_find = route_sub;
+		else
+			route_sub_find = route_sub + filename;//指定文件
+		if (filename == "all") {
+			DIR* pDir_sub = opendir(route_sub_find.c_str());
+			if (pDir_sub == NULL) {
+				continue;
+			}
+			while ((file_sub = readdir(pDir_sub)) != NULL) {
+				if (strstr(file_sub->d_name, ".cpp") == NULL
+					&& strstr(file_sub->d_name, ".c") == NULL
+					&& strstr(file_sub->d_name, ".h") == NULL)
+					continue;//不是源文件
+				Check(route_sub + file_sub->d_name, target_s, file_sub->d_name);//route_sbu+find_sub.name是文件路径，target_s是从名单中获取的信息
+				//cout<<file_sub->d_name<<endl;
+				//cout<<target_s<<endl;
+				cout << endl;
+			}
+			closedir(pDir_sub);
+		}
+		else
+			Check(route_sub + filename, target_s, filename);
+		cout << endl;
+	}
+	
+	
+#else
+	long hand_sub;
+	struct _finddata_t  find_sub;
+	route = "./source/";//某门课程+学号对于的文件夹名称
+	string route_sub, route_sub_find;//find是在某位添加了通配符的
+
+	for (int i = 0; i < num; i++) {
+		route_sub = route + courseid + "-" + to_string(ID[i]) + "/";
+		infile_courseid.open(courseid_filename, ios::in);
+		if (!infile_courseid.is_open()) {
+			//cout << "无法打开" << courseid_filename << endl;
+			return 0;
+		}
+		while (infile_courseid.peek() != EOF) {
+			getline(infile_courseid, target_s);
+			if (target_s.substr(0, 7) == to_string(ID[i])) {
+				break;
+			}
+		}
+		infile_courseid.close();
+		if (filename == "all")
+			route_sub_find = route_sub + "*.*";
+		else
+			route_sub_find = route_sub + filename;//指定文件
+		if (filename == "all") {
+			if ((hand_sub = _findfirst(route_sub_find.c_str(), &find_sub)) == -1)
+				continue;
+			do {
+				if (strstr(find_sub.name, ".cpp") == NULL
+					&& strstr(find_sub.name, ".c") == NULL
+					&& strstr(find_sub.name, ".h") == NULL)
+					continue;//不是源文件
+				Check(route_sub + find_sub.name, target_s, find_sub.name);//route_sbu+find_sub.name是文件路径，target_s是从名单中获取的信息
+				cout << endl;
+				//cout << route_sub+find_sub.name << endl;
+				//cout << target_s << endl;
+			} while (!_findnext(hand_sub, &find_sub));
+			_findclose(hand_sub);
+		}
+		else
+			Check(route_sub + filename, target_s, filename);//指定文件名时
+		cout << endl;
+	}
+#endif
+	return 1;
+}
+
+int ReadFile0(string courseid, string filename)//逐个打开每个子目录，以及子目录下的文件，判断是否在名单中
 {
 	ifstream infile_courseid, infile_filename;
 	string courseid_filename = "./source/" + courseid + ".dat";
 	string target_s,route;
 	
-
+	/*开始误会题意以为要以目录名学号为基准，去名单中中有没有对应的学号。。因此利用dirent（linux）和finddata(windows)*/
 #ifdef linux //Linux下利用dirent结构
 	struct dirent* file,*file_sub;
 //	DIR* pDir;
@@ -428,7 +563,7 @@ int main(int argc,char **argv)
 
 
 	if (!ReadFile(option[1], option[2]))//也就是courseid和filename；
-		return 0;
+		return 1;
 	
-	return 1;
+	return 0;
 }
